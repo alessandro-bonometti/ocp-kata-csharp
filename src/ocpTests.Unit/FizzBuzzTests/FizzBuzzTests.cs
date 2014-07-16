@@ -62,7 +62,7 @@ namespace ocpTests.Unit.FizzBuzzTests
 			_game.Say (1);
 			_game.Say (1);
 			_game.Say (1);
-			//			Assert.AreEqual(3, _stats.Get["calls-count"]);
+			//			Assert.AreEqual(3, _callCountStat.Value);
 		}
 
 		[Test, Ignore]
@@ -71,7 +71,7 @@ namespace ocpTests.Unit.FizzBuzzTests
 			_game.Say (1);
 			_game.Say (7);
 			_game.Say (13);
-			//			Assert.AreEqual(21, _stats.Get["calls-sum"]);
+			//			Assert.AreEqual(21, _callSumStat.Value);
 		}
 	}
 }

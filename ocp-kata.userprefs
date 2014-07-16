@@ -1,9 +1,24 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/ocpTests.Unit/FizzBuzzTests/FizzBuzzTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/ocpTests.Unit/MonopolyTests/MonopolyTests.cs">
     <Files>
-      <File FileName="src/ocpTests.Unit/FizzBuzzTests/FizzBuzzTests.cs" Line="69" Column="15" />
+      <File FileName="src/ocpTests.Unit/MonopolyTests/MonopolyTests.cs" Line="33" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="ocpTests.Unit" expanded="True">
+            <Node name="ocpTests" expanded="True">
+              <Node name="Unit" expanded="True">
+                <Node name="FizzBuzzTests" expanded="True">
+                  <Node name="FizzBuzzTests" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
