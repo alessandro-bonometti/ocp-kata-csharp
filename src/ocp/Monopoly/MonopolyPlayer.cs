@@ -4,29 +4,22 @@ namespace Ocp.Monopoly
 {
     public class MonopolyPlayer
     {
-
-        public int Balance { get; private set; }
+        public int Balance { get; set; }
 
         public MonopolyPlayer(string playerName)
         {
         }
 
-        public void LandsOn(string squareName)
+        public void LandsOn(Square square)
         {
         }
-
-        public void SetBalance(int newBalance)
-        {
-            Balance = newBalance;
-        }
-        
-
-        public Object location()
+			
+        public Square Location()
         {
             return null;
         }
 
-        public void AddOwnedProperty(string squareName)
+		public void AddOwnedProperty(Square square)
         {
         }
 
